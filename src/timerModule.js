@@ -1,11 +1,12 @@
 import {loadScript} from './common.js';
+import {Howl} from 'howler';
 
 // const deadline = '2021-04-01';
    const deadline = document.getElementById('timerTime');
    const startBtn = document.querySelector('#start');
    const stopBtn = document.querySelector('#stop');
    let timeInterval;
-   loadScript('https://cdn.jsdelivr.net/npm/howler@2.2.1/dist/howler.min.js');
+   // loadScript('https://cdn.jsdelivr.net/npm/howler@2.2.1/dist/howler.min.js');
    let sound;
       
    function getTimeRemaining(endtime) {

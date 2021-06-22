@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <title>Datetime superapp</title>
+   <script defer="defer" src="main.a1b7e0bda9b50c49af90.bundle.js"></script>
+   <link href="main.d1f22cf0b9d36bbc6de9.css" rel="stylesheet">
+</head>
+
+<body><button id="calcBtn">Калькулятор дат</button> <button id="timerBtn">Таймер</button>
+   <form id="formDate" class="hide">
+      <h3>Калькулятор дат</h3><label for="date1"><strong>Первая дата:</strong> <input type="date" id="date1"
+            name="date1" /></label> <label for="date2"><strong>Вторая дата:</strong> <input type="date" id="date2"
+            name="date2" /></label> <button type="submit">Расчитать промежуток</button>
+      <p class="message"></p>
+   </form>
+   <div id="timer" class="hide">
+      <h3 class="timer__title">Таймер</h3><label for="timerTime"><strong>Дата и время:</strong> <input
+            type="datetime-local" id="timerTime" name="timerTime" /></label>
+      <div class="timer__block"><span id="days"></span> дней:</div>
+      <div class="timer__block"><span id="hours"></span> часов:</div>
+      <div class="timer__block"><span id="minutes"></span> минут:</div>
+      <div class="timer__block"><span id="seconds"></span> секунд:</div><button id="start">Старт</button> <button
+         id="stop">Стоп</button>
+   </div>
+</body>
+
+</html>

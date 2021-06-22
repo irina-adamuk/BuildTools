@@ -1,5 +1,5 @@
 // копируем путь к файлу библиотеки luxon
-import { DateTime } from'https://moment.github.io/luxon/es6/luxon.js';
+import { DateTime } from'luxon';
 
 export const diffDates = (date1, date2) => {
   const iso1 = DateTime.fromISO(date1);

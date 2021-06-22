@@ -1,0 +1,17 @@
+#start, #stop {
+   width: 60px;
+   height: 25px;
+   font-size: 14px;
+   font-weight: 700;
+}
+#start {
+   color: green;
+}
+#stop {
+   color: red;
+}
+
+.hide {
+   display: none;
+}
+
